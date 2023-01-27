@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+*{
+    font-family: "Comic Neue", cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.italic{
+    font-style: italic;
+}
+header, main{
+    float: left;
+    width: 100%;
+    padding: 2%;
+}
+
+header{
+    height: 160px;
+}
+
+.header, .container :not(a, article){
+    position: relative;
+    left: 150px;
+}
+.header{
+    top: 20px;
+    left: 300px;
+}
+nav{
+    position: relative;
+    background-color: aqua;
+    font-size: 20px;
+    padding: 5px;
+    top: -50px;
+}
+#logo{
+    position: relative;
+    top: -50px;
+}
+
+img{
+    width: 100px;
+}
+p{
+    width: 60%;
+}
+.container :not(a) {
+    top: -70px;
+}
+h2{
+    margin-bottom: 10px;
+}
+.section-text{
+    padding:0 0 10px 25px;
+}
+.tab{
+    text-indent: 1rem;
+}
+
+nav a[href='#'] {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    justify-content: space-between;
+}
+.a{
+    position: relative;
+    margin-left: 20%;
+    width: 100%;
+    text-decoration: none;
+}
+.a:hover{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.img-left{
+    margin: 5px;
+}
+
+.aside-img{
+    width: 120px;
+}
