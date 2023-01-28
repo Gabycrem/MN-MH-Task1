@@ -9,26 +9,23 @@
 
 #fondo {
     background: url('../img/design1_image1.jpg');
+    border: 1px solid black;
     height: 400px;
     background-size: cover;
     background-position: center;
 }
 
 h1 {
-    font-size: 40px;
-    font-weight: 500;
-
+    font-size: 52px;
+    font-weight: 700;
 }
 
 h2 {
     border: 1px solid black;
     padding: 0.5rem 0;
     text-align: center;
-}
-
-h1,
-h2 {
-    margin: 0 40px;
+    font-weight: 700;
+    font-size: 48px;
 }
 
 h3 {
@@ -40,10 +37,18 @@ h3 {
     font-style: italic;
 }
 
+nav a[href="#"] {
+    background-color: #70ad47;
+}
+
+nav {
+    position: absolute;
+    top: 35px;
+    right: 20px;
+}
 
 .a {
-    position: absolute;
-    top: 7%;
+    display: inline-block;
     font-size: 1.2rem;
     color: white;
     background-color: #4472c4;
@@ -51,44 +56,35 @@ h3 {
     text-decoration: none;
     padding: 0.3rem 0;
     width: 95px;
+    margin-right: 0.5em;
     text-align: center;
-}
-
-#a-home {
-    left: 63.5%;
-}
-
-#a-about {
-    left: 74%;
-}
-
-#a-contact {
-    left: 84.5%;
+    box-shadow: 5px 5px rgba(153, 153, 153, 0.75);
 }
 
 .container :not(a, h2) {
     position: relative;
-    left: 15%;
-    top: 2em;
+    margin-left: 10%;
+    top: 1.8em;
 }
 
 .contact :not(h2, a) {
     position: relative;
-    left: 25%;
+    margin-left: 17%;
     top: 3em;
 }
 
 #logo img {
-    width: 10%;
+    width: 15%;
     position: absolute;
-    top: 590px;
+    top: 520px;
 }
 
 .img-left img {
     position: absolute;
     width: 60%;
-    margin-top: 5.6%;
-    left: 25%;
+    margin-top: 5.5rem;
+    border-radius: 5%;
+    left: 15%;
     opacity: 70%;
 }
 
@@ -100,8 +96,4 @@ article {
     margin: 0;
     inline-size: 590px;
     text-indent: 1rem;
-}
-
-nav a[href="#"] {
-    background-color: #70ad47;
 }
