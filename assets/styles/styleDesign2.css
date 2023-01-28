@@ -41,8 +41,12 @@ nav a[href="#"] {
     background-color: #70ad47;
 }
 
-nav {
+nav, .img-left img,
+#logo img{
     position: absolute;
+}
+
+nav {
     top: 35px;
     right: 20px;
 }
@@ -61,26 +65,31 @@ nav {
     box-shadow: 5px 5px rgba(153, 153, 153, 0.75);
 }
 
-.container :not(a, h2) {
+#a-about1{
+    display: none;
+}
+
+.container :not(a, h2),
+.contact :not(h2, a){
     position: relative;
+}
+
+.container :not(a, h2) {
     margin-left: 10%;
     top: 1.8em;
 }
 
 .contact :not(h2, a) {
-    position: relative;
     margin-left: 17%;
     top: 3em;
 }
 
 #logo img {
     width: 15%;
-    position: absolute;
     top: 520px;
 }
 
 .img-left img {
-    position: absolute;
     width: 60%;
     margin-top: 5.5rem;
     border-radius: 5%;

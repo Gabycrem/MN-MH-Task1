@@ -12,12 +12,18 @@
     height: 400px;
     background-size: cover;
     background-position: center;
+    margin-bottom: 5px;
+}
+
+h1, nav, 
+.img-left img, #logo img{
+    position: absolute;
 }
 
 h1 {
-    position: absolute;
     font-size: 50px;
-    left: 55px;
+    font-weight: 700;
+    left: 25px;
     top: 0;
 }
 
@@ -41,61 +47,54 @@ a {
 }
 
 .a {
-    position: relative;
-    top: 125px;
-}
-
-#a-about {
-    top: 200px;
-    left: -45px;
-}
-
-#a-contact {
-    top: 275px;
-    left: -90px;
-}
-
-nav {
+    display: block;
+    margin-bottom: 75px;
     margin-left: 10px;
 }
+#a-about2{
+    display: none;
+}
 
-.container :not(a, h2) {
+nav{
+    margin-top: 100px;
+}
+
+.container :not(a, h2),
+.contact :not(h2, a){
     position: relative;
+}
+.container :not(a, h2) {
     top: 30px;
     left: 75px;
 }
 
 .contact :not(h2, a) {
-    position: relative;
-    top: 75px;
+    top: 60px;
     left: 150px;
 }
 
 .section-text {
-    width: 600px;
+    width: 80%;
     padding: 0 0 25px 25px;
 }
 
 #logo img {
-    width: 80px;
-    float: right;
+    width: 100px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px 3px white;
+    right: 125px;
+    top: 370px;
     background-color: white;
 }
 
 .img-left img {
-    position: absolute;
-    width: 250px;
-    margin-top: 80px;
-    left: 750px;
-}
-
-article {
-    width: 80%;
+    width: 25%;
+    right: 3%;
+    top: 500px;
 }
 
 .tab {
-    margin: 0;
-    inline-size: 590px;
+    inline-size: 70%;
     text-indent: 1rem;
 }
 
