@@ -1,86 +1,103 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
-*{
+
+* {
     font-family: "Comic Neue", cursive;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.italic{
+
+.italic {
     font-style: italic;
 }
-header, main{
-    float: left;
-    width: 100%;
-    padding: 2%;
+
+#a-about1 {
+    display: none;
 }
 
-header{
+header {
     height: 160px;
 }
 
-.header, .container :not(a, article){
+.header,
+.container :not(a, article),
+nav,
+#logo,
+.a,
+.aside-img {
     position: relative;
-    left: 150px;
 }
-.header{
-    top: 20px;
-    left: 300px;
+
+.header,
+.container :not(a, article) {
+    margin-left: 20%;
 }
-nav{
-    position: relative;
-    background-color: aqua;
+
+.header {
+    top: 35px;
+}
+
+nav {
+    height: 50px;
+    background-color: black;
+    color: antiquewhite;
     font-size: 20px;
     padding: 5px;
     top: -50px;
 }
-#logo{
-    position: relative;
+
+#logo {
+    padding: 15px;
     top: -50px;
 }
 
-img{
+img {
     width: 100px;
 }
-p{
-    width: 60%;
+
+p {
+    width: 80%;
 }
+
 .container :not(a) {
-    top: -70px;
+    top: -95px;
 }
-h2{
+
+h2 {
     margin-bottom: 10px;
 }
-.section-text{
-    padding:0 0 10px 25px;
+
+.section-text {
+    padding: 0 0 10px 30px;
 }
-.tab{
+
+.tab {
     text-indent: 1rem;
+    width: 60%;
 }
 
 nav a[href='#'] {
-    color: black;
+    color: antiquewhite;
     font-size: 25px;
     font-weight: bold;
     text-decoration: none;
     justify-content: space-between;
 }
-.a{
-    position: relative;
+
+.a {
+    color: aliceblue;
     margin-left: 20%;
     width: 100%;
     text-decoration: none;
 }
-.a:hover{
-    color: black;
-    font-size: 25px;
+
+.a:hover {
+    transform: scale(1.9);
     font-weight: bold;
 }
 
-
-.img-left{
-    margin: 5px;
-}
-
-.aside-img{
-    width: 120px;
+.aside-img {
+    top: 80px;
+    margin: 15px;
+    width: 15%;
 }
