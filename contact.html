@@ -6,30 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact page</title>
-    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./assets/styles/styleDesign1.css">
+    <!-- <link rel="stylesheet" href="./assets/styles/styleDesign2.css"> -->
+    <!-- <link rel="stylesheet" href="./assets/styles/styleFree.css"> -->
 </head>
 
 <body>
     <header>
-        <h1 class="header">Mighty Ducks Hockey League</h1>
-        <figure>
-            <img id="logo" src="./IMG/LogoMightyDucks-01.png" alt="Logo de la Página" >
+        <h1 class="header italic-d2">Mighty Ducks Hockey League</h1>
+        <figure id="fondo"></figure>
+        <figure id="logo">
+            <img src="./assets/img/LogoMightyDucks-01.png" alt="Logo de la Página">
         </figure>
-        <nav class="header">
-            <a href="./index.html">Home</a> |
-            <a href="./about.html">About MDHL</a> |
-            <a href="./contact.html">contact</a>
+        <nav>
+            <a class="a" id="a-home" href="./index.html">Home</a>
+            <a class="active a" id="a-about1" href="./about.html">About MDHL</a> <!-- About for Design1-->
+            <a class="active a" id="a-about2" href="./about.html">About</a> <!--  About for Design2-->
+            <a class="active a" id="a-contact" href="#">Contact</a>
         </nav>
     </header>
     <main>
-        <aside>
+        <aside class="img-left">
             <figure>
-                <img src="./IMG/hockey-3.jpg" alt="img-3" >
+                <img class="aside-img" src="./assets/img/hockey-3.jpg" alt="img-3">
             </figure>
         </aside>
-        <section>
-            <h4>Please email us at <a href="mailto:mdhl@chihockey.org">mdhl@chihockey.org</a></h4>
-            <h4>We reply to your email as soon as we can.</h4>
+        <section class="container contact">
+            <h2>Contact</h2>
+            <p class="align-text">Please email us at <a href="mailto:mdhl@chihockey.org">mdhl@chihockey.org</a></p>
+            <p class="align-text">We reply to your email as soon as we can.</p>
         </section>
     </main>
 

@@ -6,40 +6,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mighty Ducks Hockey League</title>
-    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./assets/styles/styleDesign1.css">
+    <!-- <link rel="stylesheet" href="./assets/styles/styleDesign2.css"> -->
+    <!-- <link rel="stylesheet" href="./assets/styles/styleFree.css"> -->
 </head>
 
 <body>
     <header>
-        <h1 class="header">Mighty Ducks Hockey League</h1>
-        <figure>
-            <img id="logo" src="./IMG/LogoMightyDucks-01.png" alt="Logo de la Página">
+        <h1 class="header italic-d2">Mighty Ducks Hockey League</h1>
+        <figure id="fondo"></figure>
+        <figure id="logo">
+            <img src="./assets/img/LogoMightyDucks-01.png" alt="Logo de la Página">
         </figure>
-        <nav class="header">
-            <a href="./index.html">Home</a> |
-            <a href="./about.html">About MDHL</a> |
-            <a href="./contact.html">contact</a>
+        <nav>
+            <a class="active a" id="a-home" href="#">Home</a>
+            <a class="active a" id="a-about1" href="./about.html">About MDHL</a> <!-- About for Design1-->
+            <a class="active a" id="a-about2" href="./about.html">About</a> <!--  About for Design2-->
+            <a class="a" id="a-contact" href="./contact.html">Contact</a>
         </nav>
     </header>
+
     <main>
-        <aside>
+        <aside class="img-left">
             <figure>
-                <img src="./IMG/hockey-1.jpg" alt="img-1">
+                <img class="aside-img" src="./assets/img/hockey-1.jpg" alt="img-1">
             </figure>
         </aside>
-        <section>
+        <section class="container">
             <h2>Upcoming Events</h2>
-            <article>
-                <h3>August 4</h3>
-                <p>MDSL Fundraiser</p>
+            <article class="section-text">
+                <h3 class="italic">August 4</h3>
+                <p class="tab">MDSL Fundraiser</p>
             </article>
-            <article>
-                <h3>August 16</h3>
-                <p>Season Kick-off: Meet the Teams</p>
+            <article class="section-text">
+                <h3 class="italic">August 16</h3>
+                <p class="tab">Season Kick-off: Meet the Teams</p>
             </article>
-            <article>
-                <h3>September 1</h3>
-                <p>First Game of the Season (Check Game Schedule for details)</p>
+            <article class="section-text">
+                <h3 class="italic">September 1</h3>
+                <p class="tab">First Game of the Season (Check Game Schedule for details)</p>
             </article>
         </section>
     </main>

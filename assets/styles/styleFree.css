@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    font-family: "Comic Neue", cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.italic {
+    font-style: italic;
+}
+
+#a-about1 {
+    display: none;
+}
+
+header {
+    height: 160px;
+}
+
+.header,
+.container :not(a, article),
+nav,
+#logo,
+.a,
+.aside-img {
+    position: relative;
+}
+
+.header,
+.container :not(a, article) {
+    margin-left: 20%;
+}
+
+.header {
+    top: 35px;
+}
+
+nav {
+    height: 50px;
+    background-color: black;
+    color: antiquewhite;
+    font-size: 20px;
+    padding: 5px;
+    top: -50px;
+}
+
+#logo {
+    padding: 15px;
+    top: -50px;
+}
+
+img {
+    width: 100px;
+}
+
+p {
+    width: 80%;
+}
+
+.container :not(a) {
+    top: -95px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.section-text {
+    padding: 0 0 10px 30px;
+}
+
+.tab {
+    text-indent: 1rem;
+    width: 60%;
+}
+
+nav a[href='#'] {
+    color: antiquewhite;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.a {
+    color: aliceblue;
+    margin-left: 20%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.a:hover {
+    transform: scale(1.9);
+    font-weight: bold;
+}
+
+.aside-img {
+    top: 80px;
+    margin: 15px;
+    width: 15%;
+}
