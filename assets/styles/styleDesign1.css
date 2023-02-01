@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 * {
-    font-family: "Comic Neue", cursive;
+    font-family: "Comic Sans MS", cursive;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,8 +15,10 @@
     margin-bottom: 5px;
 }
 
-h1, nav, 
-.img-left img, #logo img{
+h1,
+nav,
+.img-left img,
+#logo img {
     position: absolute;
 }
 
@@ -51,18 +53,20 @@ a {
     margin-bottom: 75px;
     margin-left: 10px;
 }
-#a-about2{
+
+#a-about2 {
     display: none;
 }
 
-nav{
+nav {
     margin-top: 100px;
 }
 
 .container :not(a, h2),
-.contact :not(h2, a){
+.contact :not(h2, a) {
     position: relative;
 }
+
 .container :not(a, h2) {
     top: 30px;
     left: 75px;
