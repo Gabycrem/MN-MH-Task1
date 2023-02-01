@@ -11,6 +11,11 @@ body{
     background-color:  black;
 }
 
+header{
+    display: flex;
+    flex-direction: column;
+}
+
 #fondo {
     background: url('../img/design1_image1.jpg');
     height: 400px;
@@ -42,7 +47,7 @@ h3 {
 }
 
 nav a[href="#"] {
-    background-color: #70ad47;
+    background-color: yellowgreen;
 }
 
 nav {
@@ -77,19 +82,17 @@ nav {
 #logo img {
     position: absolute;
     width: 15%;
+    margin-left: 5%;
     top: 520px;
 }
 
-.img-left>figure{
-    display: flex;
-    margin-right: 25px;
-}
 
 .img-left img {
     position: absolute;
-    width: 30%;
-    margin-top: 5.5rem;
-    border-radius: 5%;
+    width: 15%;
+    right: 5%;
+    top: 590px;
+    border-radius: 15%;
     opacity: 40%;
 }
 
