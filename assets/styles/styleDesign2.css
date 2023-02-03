@@ -7,11 +7,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color:  black;
+
+body {
+    background-color: black;
 }
 
-header{
+header {
     display: flex;
     flex-direction: column;
 }
@@ -71,7 +72,7 @@ nav {
     box-shadow: 5px 5px rgba(153, 153, 153, 0.75);
 }
 
-.a:hover{
+.a:hover {
     transform: scale(1.5);
 }
 
@@ -83,7 +84,7 @@ nav {
     position: absolute;
     width: 15%;
     margin-left: 5%;
-    top: 520px;
+    top: 500px;
 }
 
 
@@ -91,7 +92,7 @@ nav {
     position: absolute;
     width: 15%;
     right: 5%;
-    top: 590px;
+    top: 520px;
     border-radius: 15%;
     opacity: 40%;
 }
@@ -101,25 +102,26 @@ nav {
     text-indent: 1rem;
 }
 
-.align-text{
+.align-text {
     text-align: center;
 }
-.inline-block{
+
+.inline-block {
     display: flex;
 }
 
 /*TARJETAS*/
-.p-center{
+.p-center {
     text-align: center;
 }
 
-.card{
+.card {
     border: 5px solid rgb(255, 255, 0);
     border-radius: 25px;
     background-color: rgb(46, 42, 42);
     box-shadow: 15px 15px rgba(255, 255, 0, 0.75);
     padding: 35px;
-    margin: 2rem  auto;
+    margin: 2rem auto;
     width: 40%;
     min-width: 600px;
     height: auto;
@@ -127,30 +129,40 @@ nav {
 }
 
 /** TABLA ---- */
-table{
+table {
     width: 40%;
-    margin: 2rem  auto;
+    margin: 2rem auto;
+}
+
+th {
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.date {
     text-align: center;
 }
 
-th{
-    font-size: 1.5rem;
-    border-bottom: 1px solid yellow;
-}
+
 
 /**LISTAS DE RULES*/
-.ol-rules{
+.ol-rules {
     margin-left: 2rem;
 }
-.ol-rules-abc, .ul-rules{
+
+.ol-rules-abc,
+.ul-rules {
     margin-left: 3rem;
 }
-li{
+
+li {
     margin-bottom: 0.5rem;
 }
 
-/** TARJETAS DE GAME-INFO*/
+.ol-rules-abc {
+    list-style-type: lower-alpha;
+}
 
-/* #game-info .card{
-    width: 60%;
-} */
+.ul-rules {
+    list-style-type: circle;
+}
