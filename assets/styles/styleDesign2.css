@@ -166,3 +166,57 @@ li {
 .ul-rules {
     list-style-type: circle;
 }
+
+/*Formulario*/
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form[class="card"] {
+    padding-right: 0;
+}
+
+.container-form ol {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-form li {
+    list-style-type: none;
+}
+
+.container-form label:not(.not-block) {
+    display: block;
+}
+
+.container-form li:not(:nth-child(3), :nth-child(8)) {
+    display: inline-block;
+    width: 50%;
+}
+
+.container-form li:nth-child(3) {
+    width: 90%;
+}
+
+input {
+    width: 80%;
+}
+
+input[type="radio"] {
+    width: min-content;
+}
+
+.not-block {
+    margin-right: 1rem;
+}
+
+#adress-st {
+    display: block;
+    width: 100%;
+}
+
+input[type="submit"] {
+    width: 100px;
+    align-self: center;
+}

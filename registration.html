@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <title>Rules</title>
+    <link rel="stylesheet" href="./assets/styles/styleDesign2.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="header italic-d2">Mighty Ducks Hockey League</h1>
+        <figure id="fondo"></figure>
+        <figure id="logo">
+            <img src="./assets/img/LogoMightyDucks-01.png" alt="Logo de la Página">
+        </figure>
+        <nav class="header">
+            <a class="a" id="a-home" href="./index.html">Home</a>
+            <a class="a" id="a-about2" href="./about.html">About</a>
+            <a class="a" id="a-contact" href="./contact.html">Contact</a>
+            <a class="a" id="a-rules" href="./rules.html">Rules</a>
+            <a class="a" id="a-gameInfo" href="./game_info.html">Game Info</a>
+            <a class="a" id="a-registrationForm" href="#">Registration</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container">
+            <h2>Registration Form</h2>
+            <form class="card" action="./show_data.html" method="get">
+                <field class="container-form">
+                    <ol>
+                        <li class="doble">
+                            <label for="first-name">Player's First Name: </label>
+                            <input type="text" name="first-name" id="first-name">
+                        </li>
+                        <li class="doble">
+                            <label for="last-name">Last Name: </label>
+                            <input type="text" name="last-name" id="last-name">
+                        </li>
+                        <li>
+                            <label for="adress-st">Street Address: </label>
+                            <input class="block" type="text" name="adress-st" id="adress-st">
+                        </li>
+                        <li>
+                            <label for="city">City: </label>
+                            <input type="text" name="city" id="city">
+                        </li>
+                        <li>
+                            <label for="zip-code">Zip Code: </label>
+                            <input type="text" name="zip-code" id="zip-code">
+                        </li>
+                        <li>
+                            <label for="birth-date">Birth Date (mm/dd/yyyy): </label>
+                            <input type="date" name="birth-date" id="birth-date">
+                        </li>
+                        <li>
+                            <label>Gender: </label>
+                            <input type="radio" name="gender" id="female" value="female">
+                            <label class="not-block" for="female">Female</label>
+                            <input type="radio" name="gender" id="male" value="male">
+                            <label class="not-block" for="male">Male</label>
+                        </li>
+                        <li>
+                            <label>Grade: </label>
+                            <input type="radio" name="grade" id="pre-school" value="pre-school">
+                            <label class="not-block" for="pre-school">Pre-School</label>
+                            <input type="radio" name="grade" id="first" value="first">
+                            <label class="not-block" for="first">1st</label>
+                            <input type="radio" name="grade" id="second" value="second">
+                            <label class="not-block" for="second">2st</label>
+                            <input type="radio" name="grade" id="third" value="third">
+                            <label class="not-block" for="third">3st</label>
+                            <input type="radio" name="grade" id="fourth" value="fourth">
+                            <label class="not-block" for="fourth">4st</label>
+                            <input type="radio" name="grade" id="fifth" value="fifth">
+                            <label class="not-block" for="fifth">5st</label>
+                        </li>
+                    </ol>
+                </field>
+                <field></field>
+                <field></field>
+                <field></field>
+                <field></field>
+                <input type="submit" value="Submit">
+            </form>
+
+        </section>
+    </main>
+</body>
+
+</html>
