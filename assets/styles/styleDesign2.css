@@ -144,9 +144,48 @@ th {
     text-align: left;
 }
 
-.date {
+td{
+    padding: .5em;
+}
+
+.locations{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+article .double{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+iframe{
+    border-radius: 25px;
+    padding: auto;
+}
+
+.date, .center{
     text-align: center;
 }
+
+.card .center{
+    font-size: 2rem;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  text-decoration: none;
+}
+
 
 
 
