@@ -34,27 +34,27 @@
                 <fieldset class="container-form">
                     <ol>
                         <li class="double">
-                            <label for="first-name" >*Player's First Name:</label>
+                            <label for="first-name">*Player's First Name:</label>
                             <input type="text" name="first-name" id="first-name" required>
                         </li>
                         <li class="double">
-                            <label for="last-name" >*Last Name:</label>
+                            <label for="last-name">*Last Name:</label>
                             <input type="text" name="last-name" id="last-name" required>
                         </li>
                         <li class="block">
-                            <label for="adress-st" >*Street Address: </label>
+                            <label for="adress-st">*Street Address: </label>
                             <input class="block" type="text" name="adress-st" id="adress-st" required>
                         </li>
                         <li class="double">
-                            <label for="city" >*City: </label>
+                            <label for="city">*City: </label>
                             <input type="text" name="city" id="city" required>
                         </li>
                         <li class="double">
-                            <label for="zip-code" >*Zip Code: </label>
+                            <label for="zip-code">*Zip Code: </label>
                             <input type="text" name="zip-code" id="zip-code" required>
                         </li>
                         <li class="double">
-                            <label for="birth-date" >*Birth Date (mm/dd/yyyy): </label>
+                            <label for="birth-date">*Birth Date (mm/dd/yyyy): </label>
                             <input type="date" name="birth-date" id="birth-date" required>
                         </li>
                         <li class="double">
@@ -86,8 +86,8 @@
                     <ol>
                         <li class="double">
                             <label for="select-school">Closest School:</label>
-                            <select name="school" id="select-school" required>
-                                <option>Select a school</option>
+                            <select name="school" id="select-school">
+                                <option value="empty">Select a school</option>
                                 <option value="AJ Katzenmaier">AJ Katzenmaier</option>
                                 <option value="Greenbay">Greenbay</option>
                                 <option value="Howard A Yeager">Howard A Yeager</option>
@@ -102,22 +102,23 @@
                     <legend class="bold h3">What position(s) do you normally play?(check all that apply)</legend>
                     <ol>
                         <li class="double">
-                            <input type="checkbox" name="" id="forward" value="forward">
+                            <input type="checkbox" name="position" id="forward" value="forward">
                             <label class="not-block" for="forward">Forward</label>
                         </li>
                         <li class="double">
-                            <input type="checkbox" name="" id="midfield" value="midfield">
+                            <input type="checkbox" name="position" id="midfield" value="midfield">
                             <label class="not-block" for="midfield">Midfield</label>
                         </li>
                         <li class="double">
-                            <input type="checkbox" name="" id="defense" value="defense">
+                            <input type="checkbox" name="position" id="defense" value="defense">
                             <label class="not-block" for="defense">Defense</label>
                         </li>
                         <li class="double">
-                            <input type="checkbox" name="" id="goalkeeper" value="goalkeeper">
+                            <input type="checkbox" name="position" id="goalkeeper" value="goalkeeper">
                             <label class="not-block" for="goalkeeper">Goalkeeper</label>
                         </li>
                     </ol>
+
                 </fieldset>
                 <fieldset class="container-form">
                     <legend class="bold h3">Uniform Size:</legend>
@@ -154,21 +155,30 @@
                 </fieldset>
                 <fieldset class="container-form">
                     <legend class="bold h3">Permission to Play</legend>
-                    <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physucal injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnifi MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities, which transportation.</p>
-                    <p>By signing below, I herebyagree andauthorizethe above. In addition, by signing below, lalso acknowledge the i have read the cancellation policy and agree to its terms.</p>
+                    <p class="tab">I, the parent or guardian of the minor registrant, agree that the registrant and I
+                        will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the
+                        possibility of physucal injury associated with hockey and in consideration for the "League"
+                        accepting the registrant for its hockey programs and activities, I hereby release, discharge,
+                        and/or otherwise indemnifi MDHL, their employees and associated personnel and volunteers,
+                        including the facilities used for practices and games, against any claim by or on behalf of the
+                        registrant as a result of the registrant's participation in the programand/orbeing transported
+                        to or from MDHL sponsored activities, which transportation.</p>
+                    <p class="tab">By entering your name below, I herebyagree andauthorizethe above. In addition, by
+                        signing below, lalso acknowledge the i have read the cancellation policy and agree to its terms.
+                    </p>
                     <ol class="signature">
                         <li class="double">
-                            <input type="text" name="parent-guardian" id="parent-guardian" value="parent-guardian" required>
-                            <label for="parent-guardian">*Parent/Guardian Signature: </label>
+                            <input type="text" name="parent-guardian" id="parent-guardian" required>
+                            <label for="parent-guardian">*Parent/Guardian Name </label>
                         </li>
                         <li class="double">
                             <input type="date" name="signature-date" id="signature-date" required>
-                            <label for="signature-date" >*Date</label>
+                            <label for="signature-date">*Date</label>
                         </li>
                     </ol>
-                    
+
                 </fieldset>
-                
+
                 <input type="submit" value="Submit">
             </form>
 
